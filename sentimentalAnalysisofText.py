@@ -26,4 +26,4 @@ if __name__ =="__main__":
      # text = f.read()
       #decoded = False
   sentiment_scores(text) 
-  print(text)
+
