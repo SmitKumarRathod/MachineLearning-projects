@@ -22,8 +22,5 @@ def sentiment_scores(text):
 if __name__ =="__main__":
   with open('resEt.txt','r',encoding='utf-8') as f:
     text = f.read() 
-    #if isinstance(f, str):
-     # text = f.read()
-      #decoded = False
   sentiment_scores(text) 
 
